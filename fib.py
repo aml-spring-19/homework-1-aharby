@@ -1,5 +1,5 @@
 
-def Fibonacci(n): 
+def fib(n): 
     if n<0: 
         print("Incorrect input") 
     elif n==0: 
@@ -7,10 +7,4 @@ def Fibonacci(n):
     elif n==1: 
         return 1
     else: 
-        return Fibonacci(n-1)+Fibonacci(n-2) 
-
-
-
-print(Fibonacci(9)) 
-
-#This code is contributed by Saket Modi 
+        return fib(n-1)+fib(n-2) 
