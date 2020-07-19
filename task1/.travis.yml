@@ -1,0 +1,6 @@
+language: python
+rvm:
+ -  Python3.6
+ - Python3.7
+ 
+  
